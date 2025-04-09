@@ -1,0 +1,97 @@
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color */
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #007bff; /* Bootstrap primary color */
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0056b3; /* Dark blue for headings */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background-color: #ffffff; /* White table background */
+  border: 1px solid #ddd;
+}
+
+table th, table td {
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+}
+
+button {
+  background-color: #28a745; /* Bootstrap success color */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50px;
+  margin-right: 1rem;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
