@@ -47,3 +47,4 @@ class Command(BaseCommand):
             Workout.objects.create(**workout)
 
         self.stdout.write(self.style.SUCCESS("Database populated with test data."))
+        
